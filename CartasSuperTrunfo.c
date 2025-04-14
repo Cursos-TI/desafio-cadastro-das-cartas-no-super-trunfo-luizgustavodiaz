@@ -82,5 +82,12 @@ pib_per_capita2 = pib2 * 1000000000.0 / populacao2;
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per capita: %.2f reais\n", pib_per_capita2);
 
+    if (pib_per_capita1 > pib_per_capita2){
+       printf("Carta 1 venceu!/n") ;
+
+    } else{
+        printf("Carta 2 venceu!/n");
+    }
+
     return 0;
 }
