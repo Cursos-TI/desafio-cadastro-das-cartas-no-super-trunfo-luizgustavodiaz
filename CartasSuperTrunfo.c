@@ -15,7 +15,7 @@ int main() {
    
     // Leitura dos dados da Carta 1
     printf("Digite os dados da Carta 1: \n");
-    printf("Estado (A-H): ");
+    printf("Estado (A-Z): ");
     scanf(" %s", &estado1);
     printf("Codigo (ex: A01): ");
     scanf("%s", codigo1);
