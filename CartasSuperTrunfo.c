@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 int main() {
     // Variáveis das Cartas 1 e 2
